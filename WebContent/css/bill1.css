@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.inner1{
+	background:url(..images/user_btn1.png) no-repeat top left;
+}
+
+.bill_name{
+	float:left;
+	margin-left: 50px;
+	background: yellow;
+}
+
+
+.bill_shuoming{
+	width: 400px;
+	height: 100px;
+	margin-top: 80px;
+	margin-left: 50px;
+	background: #FFA488;
+}
+
+.pic{
+	position: absolute;
+  	left: 600px;
+ 	top: 50px;
+	float:right;
+}

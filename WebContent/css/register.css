@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+.content{
+	background:url(../images/background.png) no-repeat top left;
+	width: 1000px;
+	height: 500px;
+	margin: 0 auto;
+	border: 1px solid silver;
+	margin-top: 5px;
+	position:relative;
+	padding-top:5%;
+	background-size: cover;
+}
+
+.page_name{
+	width:1000px;
+	height:43px;
+	margin:0 auto;
+	margin-top:10px;
+	font-size:22px;
+	color:#1E9CAD;
+	padding-top:7px;
+	padding-left:20px;
+	text-indent:270px
+	
+}
+
+.login_content{
+		padding-left:200px;
+}
+
+.login_l{
+	width:100px;
+	height:10px;
+	color:#1E9CAD;
+	
+}
+.font14{
+	font-size: 14px;
+    margin-bottom: 20px;font-family:”宋体“
+}
+.span1{
+	width:200px;
+}
+.tn-form-label{
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 32px;
+    padding: 0 0 0 5px;
+    text-align: center;
+    width: 80px;
+}
+.tn_textbox{
+	background:url(../images/it-input.png) no-repeat top left;
+	border: 0 none;
+    color: #999;
+    float: left;
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 5px;
+    width: 273px;
+}
+.tn_form_row_button{
+    padding: 30px 0 0 80px;
+    text-align: 20px;
+	margin-top:30px;
+	width:380px;
+	clear:both;
+}
+.it-register-text{
+	width:100px;
+}
+.tn-checkbox{
+	
+}
+.login_r{
+	padding-top:50%;
+	float:right;
+	width:380px;
+	margin-top:-260px; 
+	font-size:14px;
+}
+
+
+/* 服务条款弹出层样式*/
+#bg {
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index: 1001;
+	-moz-opacity: 0.7;
+	opacity: .70;
+	filter: alpha(opacity = 70);
+}
+#show {
+	display: none;
+	position: absolute;
+	top: 25%;
+	left: 22%;
+	width: 53%;
+	height: 49%;
+	padding: 8px;
+	border: 8px solid #E8E9F7;
+	background-color: white;
+	z-index: 1002;
+	overflow: auto;
+	font-family: Microsoft YaHei
+}
+.it-register-text{
+	width:200px;
+}

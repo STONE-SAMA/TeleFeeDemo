@@ -1,0 +1,95 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.content{
+	background:url(../images/background.png) no-repeat top left;
+	width: 1000px;
+	height: 450px;
+	margin: 0 auto;
+	border: 1px solid silver;
+	margin-top: 5px;
+	position:relative;
+	padding-top:5%;
+	background-size: cover;
+}
+
+.page_name{
+	width:1000px;
+	height:43px;
+	margin:0 auto;
+	margin-top:10px;
+	font-size:22px;
+	color:#1E9CAD;
+	padding-top:7px;
+	padding-left:20px;
+	text-indent:270px
+	
+}
+
+.tn-button-text{background: url(../images/it-button.png) no-repeat -205px -9px;
+	width:145px;height:43px;
+	font-size: 16px;
+	line-height:43px;
+	font-weight: bold;
+	display:inline-block;
+	padding: 0 10px;
+	color:white;
+	border:none;text-align:center}
+
+.login_content{
+		padding-left:200px;
+}
+
+.login_l{
+	width:100px;
+	height:10px;
+	color:#1E9CAD;
+	
+}
+.font14{
+	font-size: 14px;
+    margin-bottom: 20px;font-family:”宋体“
+}
+.span1{
+	
+}
+.tn-form-label{
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 32px;
+    padding: 0 0 0 5px;
+    text-align: center;
+    width: 80px;
+}
+.tn_textbox{
+	background:url(../images/it-input.png) no-repeat top left;
+	border: 0 none;
+    color: #999;
+    float: left;
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 5px;
+    width: 273px;
+}
+.tn_form_row_button{
+    padding: 30px 0 0 80px;
+    text-align: 20px;
+	margin-top:30px;
+	width:380px;
+	clear:both;
+}
+.it-register-text{
+	width:100px;
+}
+.tn-checkbox{
+	
+}
+.login_r{
+	padding-top:50%;
+	float:right;
+	width:380px;
+	margin-top:-260px; 
+	font-size:14px;
+}
